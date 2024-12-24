@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="center_icon_size">140dp</dimen>
+    <dimen name="center_icon_size_large">200dp</dimen>
+    <dimen name="calc_left">15dp</dimen>
+    <dimen name="calc_test_left">0dp</dimen>
+    <dimen name="display_left">8dp</dimen>
+    <dimen name="display_small_left">3dp</dimen>
+    <dimen name="display_top">0dp</dimen>
+    <dimen name="favorite_margin">5dp</dimen>
+    <dimen name="favorite_text_big_size">22dp</dimen>
+    <dimen name="favorite_text_small_size">15dp</dimen>
+    <dimen name="calculator_row_height">45dp</dimen>
+    <dimen name="calculator_edit_width">60dp</dimen>
+    <dimen name="calculator_left">7dp</dimen>
+    <dimen name="calculator_result_left">0dp</dimen>
+    <dimen name="calculator_graphic_left">0dp</dimen>
+    <dimen name="max_text_small_size">17dp</dimen>
+    <dimen name="max_text_middle_size">18dp</dimen>
+    <dimen name="max_text_middle_size_1">18dp</dimen>
+    <dimen name="max_text_large_size">18dp</dimen>
+    <dimen name="max_upper_weight_1">1.1</dimen>
+    <dimen name="max_upper_weight_2">1.4</dimen>
+    <dimen name="max_lower_weight_2">1.3</dimen>
+    <dimen name="max_lower_weight_3">1</dimen>
+    <dimen name="max_left_padding">30dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <item name="max_upper_weight_3" type="dimen" format="float">1.1</item>
+    <item name="max_lower_weight_1" type="dimen" format="float">1.5</item>
+    <item name="max_lower_weight_4" type="dimen" format="float">1.2</item>
+
+    <dimen name="max_muscle_title">1.5</dimen>
+    <item name="max_title" format="float" type="dimen">1</item>
+    <item name="max_muscle" format="float" type="dimen">1.5</item>
+    <item name="max_weight" format="float" type="dimen">1</item>
+</resources>

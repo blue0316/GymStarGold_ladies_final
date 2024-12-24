@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:fillViewport="true"
+    >
+
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:text="Are You Sure You Want To Log Out?"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        android:layout_weight="0.12">
+		
+		
+		  <Button
+            android:id="@+id/btn_sync"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bacg"
+            android:clickable="true"
+            android:text="Sync"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+            
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bacg"
+            android:clickable="true"
+            android:text="Yes"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bacg"
+            android:clickable="true"
+            android:text="No"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

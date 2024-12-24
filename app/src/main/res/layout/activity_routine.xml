@@ -1,0 +1,194 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        tools:context="com.watchwomen.gymstarsilver.MaxValueActivity"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/header_routine"
+
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:text="Routine Workout"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_border"
+            >
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:gravity="center"
+                android:dropDownWidth="match_parent"
+                android:padding="8dp"
+                android:popupBackground="#000"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:theme="@style/SpinnerStyle" />
+
+
+
+
+
+        </LinearLayout >
+
+
+        <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_border"
+            >
+
+
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:gravity="center"
+                android:dropDownWidth="match_parent"
+                android:padding="8dp"
+                android:popupBackground="#000"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:theme="@style/SpinnerStyle"
+                />
+
+
+
+
+
+        </LinearLayout >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_border"
+        >
+
+
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:gravity="center"
+                android:dropDownWidth="match_parent"
+                android:padding="8dp"
+                android:popupBackground="#000"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:theme="@style/SpinnerStyle"
+                />
+
+    </LinearLayout >
+-->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:layout_gravity="center"
+            >
+
+
+
+            <Button
+                android:id="@+id/btnStart"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/bacg"
+                android:paddingLeft="3dp"
+
+                android:paddingRight="3dp"
+                android:text="START"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnReview"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/bacg"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="REVIEW"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

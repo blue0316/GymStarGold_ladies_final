@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context="com.watchwomen.gymstarsilver.MaxValueActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/headerimg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/maxheadertext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="left"
+                    android:text="Top Results"
+                    android:textColor="@android:color/white"
+                    android:textSize="27dp"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <!--<include-->
+                <!--layout="@layout/max_value_header"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="10dp" />-->
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:paddingLeft="@dimen/max_left_padding"
+            android:orientation="horizontal">
+
+            <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="@dimen/max_title"
+                android:gravity="top|left"
+            android:padding="2dp"
+            android:text="Max\nWeight"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/max_text_large_size"
+            android:textStyle="bold" />
+
+           <!-- <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="@dimen/max_lower_weight_2"
+            android:gravity="center_vertical|start"
+            android:padding="2dp"
+            android:text="MG"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/max_text_large_size"
+            android:textStyle="bold" /> -->
+
+            <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/max_muscle"
+            android:gravity="center_horizontal|top"
+            android:text="M Type/ Date"
+            android:padding = "2dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/max_text_large_size" />
+
+            <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/max_weight"
+            android:gravity="top|right"
+            android:padding="2dp"
+            android:text="Weight"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/max_text_large_size"
+            android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:paddingLeft="@dimen/max_left_padding">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="@dimen/max_title"
+                    android:gravity="left|top"
+                    android:padding="2dp"
+                    android:text="Max\nWeight"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+             <!--   <TextView
+                    android:id="@+id/max_weight_muscle_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="@dimen/max_lower_weight_2"
+                    android:gravity="center_vertical|start"
+                    android:padding="2dp"
+                    android:text="Chest Lower"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" /> -->
+
+                <TextView
+                    android:id="@+id/max_weight_high_station"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_muscle"
+                    android:gravity="center_horizontal|top"
+                    android:padding="2dp"
+                    android:text="3"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/max_weight_value"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_weight"
+                    android:gravity="top|right"
+                    android:padding="2dp"
+                    android:text="Weight"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:paddingLeft="@dimen/max_left_padding">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="@dimen/max_title"
+                    android:gravity="left|top"
+                    android:padding="2dp"
+                    android:text="Weight\nHTotal"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <!--     <TextView
+                       android:id="@+id/max_weight_muscle_type_24"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:layout_weight="@dimen/max_lower_weight_2"
+                       android:gravity="center_vertical|start"
+                       android:padding="2dp"
+                       android:text="Butt"
+                       android:textColor="@android:color/white"
+                       android:textSize="19dp" />-->
+
+                 <TextView
+                       android:id="@+id/max_weight_htotal_station"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="@dimen/max_muscle"
+                       android:gravity="center_horizontal|top"
+                       android:padding="2dp"
+                       android:text="3"
+                       android:textColor="@android:color/white"
+                       android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/max_weight_htotal_value"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_weight"
+                    android:gravity="top|right"
+                    android:padding="2dp"
+                    android:text="134,879 lbs"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:paddingLeft="@dimen/max_left_padding">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="@dimen/max_title"
+                    android:gravity="left|top"
+                    android:padding="2dp"
+                    android:text="Effort\n24H"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+               <!-- <TextView
+                    android:id="@+id/max_effort_muscle_type_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="@dimen/max_lower_weight_2"
+                    android:gravity="center_vertical|start"
+                    android:padding="2dp"
+                    android:text="Legs Front"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />-->
+
+                <TextView
+                    android:id="@+id/max_weight_high_station_24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_muscle"
+                    android:gravity="center_horizontal|top"
+                    android:padding="2dp"
+                    android:text="3"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/max_weight_value_24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_weight"
+                    android:gravity="top|right"
+                    android:padding="2dp"
+                    android:text=" "
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:paddingLeft="@dimen/max_left_padding"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="@dimen/max_title"
+                    android:gravity="left|top"
+                    android:padding="2dp"
+                    android:text="Effort\n7Day"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <!--<TextView
+                    android:id="@+id/max_effort_muscle_type_mg_24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="@dimen/max_lower_weight_2"
+                    android:gravity="center_vertical|start"
+                    android:padding="2dp"
+                    android:text="Back"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />-->
+
+                <TextView
+                    android:id="@+id/max_weight_high_station_effort_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_muscle"
+                    android:gravity="center_horizontal|top"
+                    android:padding="2dp"
+                    android:text="3"
+
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/max_weight_value_effort_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_weight"
+                    android:gravity="top|right"
+                    android:padding="2dp"
+                    android:text="134879"
+
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:paddingLeft="@dimen/max_left_padding">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="@dimen/max_title"
+                    android:gravity="left|top"
+                    android:padding="2dp"
+                    android:text="Effort\nMG(24H)"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <!--<TextView
+                    android:id="@+id/max_effort_muscle_type_mg_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="@dimen/max_lower_weight_2"
+                    android:gravity="center_vertical|start"
+                    android:padding="2dp"
+                    android:text="Abdominals"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />-->
+
+                <TextView
+                    android:id="@+id/max_weight_high_station_effort_mg_24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_muscle"
+                    android:gravity="center_horizontal|top"
+                    android:padding="2dp"
+                    android:text="3"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/max_weight_value_effort_mg_24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_weight"
+                    android:gravity="top|right"
+                    android:padding="2dp"
+                    android:text="320,005"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:paddingLeft="@dimen/max_left_padding">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="@dimen/max_title"
+                    android:gravity="left|top"
+                    android:padding="2dp"
+                    android:text="Effort\nMG(7D)"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <!--<TextView
+                    android:id="@+id/max_effort_muscle_type_mg_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="@dimen/max_lower_weight_2"
+                    android:gravity="center_vertical|start"
+                    android:padding="2dp"
+                    android:text="Abdominals"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />-->
+
+                <TextView
+                    android:id="@+id/max_weight_high_station_mg_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_muscle"
+                    android:gravity="center_horizontal|top"
+                    android:padding="2dp"
+                    android:text="3"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/max_weight_value_effort_mg_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/max_weight"
+                    android:gravity="top|right"
+                    android:padding="2dp"
+                    android:text="320,005"
+                    android:textColor="@android:color/white"
+                    android:textSize="19dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

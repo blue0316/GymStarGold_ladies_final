@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GymStarGold Ladies QW09</string>
+    <string name="spinner_title">Workout Name</string>
+    <string-array name="workoutName">
+        <item>SELECT ROUTINE NAME</item>
+        <item>Biceps and Triceps</item>
+        <item>Chest and Arms</item>
+        <item>Arms</item>
+        <item>Back</item>
+        <item>Chest and Cals</item>
+        <item>Abdominals</item>
+    </string-array>
+
+    <string-array name="workoutDay">
+        <item>SELECT DAY OF WEEK </item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="workoutGroup">
+        <item>SELECT MUSCLE GROUP</item>
+        <item>Legs</item>
+        <item>Back</item>
+        <item>Chest</item>
+        <item>Arms</item>
+        <item>Forearms</item>
+        <item>Abdominals</item>
+        <item>Shoulders</item>
+        <item>Calves</item>
+        <item>Xtram</item>
+    </string-array>
+</resources>
+
+

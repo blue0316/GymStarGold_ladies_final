@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/black"
+        >
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            layout="@layout/header" />
+        <TextView
+            android:id="@+id/cardiotext"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Cardio workout"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="26dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

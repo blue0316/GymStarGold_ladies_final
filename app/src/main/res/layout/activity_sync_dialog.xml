@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:background="@drawable/sync_bg_gazelle" >
+
+     <!--   <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="265dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="-20dp"
+            android:src="@drawable/gazalle_r" /> -->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+                <!--   android:background="@drawable/headerimg"-->
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="left"
+                    android:textAllCaps="true"
+                    android:text="SYNC"
+                    android:textColor="@android:color/white"
+                    android:textSize="27dp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+           <!-- <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bacg"
+                android:text="Videos"
+                android:textColor="@android:color/white"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+
+                android:visibility="invisible" /> -->
+
+            <Button
+                android:id="@+id/btn_sync"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bacg"
+                android:text="Sync"
+                android:textColor="@android:color/white"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="40dp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_online"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bacg"
+                android:text="Online"
+                android:textColor="@android:color/white"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_offline"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bacg"
+                android:text="Start\nOffline"
+                android:textColor="@android:color/white"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:visibility="visible" />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

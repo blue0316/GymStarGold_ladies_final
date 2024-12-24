@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context="com.watchwomen.gymstarsilver.StationListActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                layout="@layout/max_value_header"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/favorite_margin"
+                    app:srcCompat="@drawable/red_bullet" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Max Weight"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+
+                        android:id="@+id/stno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Station 324"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+
+                    android:id="@+id/maxweight"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/red_bullet"
+                    android:layout_margin="@dimen/favorite_margin" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Weekly Ttl H"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="All Stations"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/maxweekly_ttl"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+
+                    android:layout_margin="@dimen/favorite_margin"
+                    app:srcCompat="@drawable/red_bullet" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Max Effort"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="All Stations"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/maxeffort"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/favorite_margin"
+                    app:srcCompat="@drawable/f" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fvrt Max Effort"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Station 525"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fvrt_maxeffort"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/favorite_margin"
+                    app:srcCompat="@drawable/f" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fvrt Max Wgt"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Station 525"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fvrt_maxweight"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+            <include
+                layout="@layout/favorite_header"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/favorite_margin"
+                    app:srcCompat="@drawable/red_bullet" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Max Weight"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+
+                        android:id="@+id/stno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Station 324"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+
+                    android:id="@+id/maxweight"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/red_bullet"
+                    android:layout_margin="@dimen/favorite_margin" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Weekly Ttl H"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="All Stations"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/maxweekly_ttl"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+
+                    android:layout_margin="@dimen/favorite_margin"
+                    app:srcCompat="@drawable/red_bullet" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Max Effort"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="All Stations"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/maxeffort"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/favorite_margin"
+                    app:srcCompat="@drawable/f" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fvrt Max Effort"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Station 525"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fvrt_maxeffort"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/favorite_margin"
+                    app:srcCompat="@drawable/f" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fvrt Max Wgt"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_big_size"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Station 525"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/favorite_text_small_size"
+                        android:textStyle="italic|bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fvrt_maxweight"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right|center_vertical"
+                    android:text="75"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

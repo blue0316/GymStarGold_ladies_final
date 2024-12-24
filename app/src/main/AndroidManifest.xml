@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.watchwomen.gymstarsilver">
+
+   <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!--
+        The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".GymStarSilver"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.MainActivity" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.WorkoutListItems" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.MainMenuActivity" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.StationListActivity" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name=".SplashActivity"> -->
+
+
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+
+
+        <!-- </activity> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.NavigationMenuActivity" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.WorkoutListActivity" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.CalculatorActivity" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.Login" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.DisplayResult" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.CalculateresultSwipeRight" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.GraphViewData" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.FavoriteActivity" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" /> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.MaxValueActivity" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" ></activity> -->
+        <!-- <activity android:name="com.watchwomen.gymstarsilver.CustomDialogClass" android:windowSoftInputMode="adjustPan|stateAlwaysHidden" ></activity> -->
+
+		<activity android:name=".DatabaseCopyActivity" />
+
+        <activity
+            android:name=".WorkoutFinishActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".SyncDialogActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".MembershipActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".InstructionsActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".SyncActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".WorkoutListItems"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".StationListActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationMenuActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".WorkoutListActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Login"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".DisplayResult"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".CalculateresultSwipeRight"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".GraphViewData"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".FavoriteActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".MaxValueActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".CustomDialogClass"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity android:name=".MainHighestNoActivity" />
+        <activity android:name=".Routine" />
+        <activity android:name=".RoutineList" />
+        <activity
+            android:name=".RoutineCalculatorActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity android:name=".RoutineDisplay" />
+        <activity android:name=".spinner_textview_align"></activity>
+    </application>
+
+</manifest>

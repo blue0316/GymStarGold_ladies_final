@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:background="@drawable/headerimg">
+        <!--ImageView
+            android:id="@+id/backarr"
+            android:layout_width="120dp"
+            android:layout_marginLeft="-30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/larrow"/-->
+            <!--android:src="@drawable/backarr"-->
+
+
+        <TextView
+            android:id="@+id/stationheadertext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textAllCaps="true"
+            android:gravity="left"
+            android:text="Station List Bicepts"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="6dp"
+            android:textStyle="bold" />
+
+       <!--android:src="@drawable/backarr"/-->
+
+
+</LinearLayout>
+
+
+</LinearLayout>
